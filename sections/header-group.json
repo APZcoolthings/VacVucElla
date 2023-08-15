@@ -8,6 +8,7 @@
         "sections--14682829619277__d8ae5051-8249-41f8-b44d-82263bb2106b-16807817840c8dfcbe-0": {
           "type": "logo",
           "settings": {
+            "logo": "{{ shop.brand.logo }}",
             "logo_width": 180,
             "logo_text": "",
             "logo_font_size": 30,
