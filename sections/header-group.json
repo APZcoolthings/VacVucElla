@@ -20,7 +20,7 @@
         "sections--14682829619277__d8ae5051-8249-41f8-b44d-82263bb2106b-16807817840c8dfcbe-1": {
           "type": "search",
           "settings": {
-            "show_box_shadow": false,
+            "show_box_shadow": true,
             "search_color": "#808080",
             "search_icon_color": "#220971",
             "bg_search_color": "#ffffff",
@@ -37,20 +37,21 @@
         },
         "sections--14682829619277__d8ae5051-8249-41f8-b44d-82263bb2106b-16807817840c8dfcbe-3": {
           "type": "wishlist",
+          "disabled": true,
           "settings": {
-            "color": "#fdc525"
+            "color": "{{ shop.brand.colors.primary[0].background }}"
           }
         },
         "sections--14682829619277__d8ae5051-8249-41f8-b44d-82263bb2106b-16807817840c8dfcbe-4": {
           "type": "customer",
           "settings": {
-            "color": "#fdc525"
+            "color": "{{ shop.brand.colors.primary[0].background }}"
           }
         },
         "sections--14682829619277__d8ae5051-8249-41f8-b44d-82263bb2106b-16807817840c8dfcbe-5": {
           "type": "cart",
           "settings": {
-            "color": "#fdc525",
+            "color": "{{ shop.brand.colors.primary[0].background }}",
             "cart_bg_item": "#0a6cdc",
             "cart_color_item": "#ffffff",
             "cart_item_font_size": 12
@@ -68,9 +69,9 @@
       "settings": {
         "container": "1370",
         "padding_full_width": 0,
-        "header_bg": "#161880",
+        "header_bg": "#f6f7fa",
         "header_bg_gradient": "",
-        "header_text_transform": "capitalize",
+        "header_text_transform": "uppercase",
         "padding_top": 18,
         "padding_bottom": 18
       }
@@ -143,7 +144,7 @@
           "type": "header_icons",
           "settings": {
             "customer_service_text": "",
-            "show_help": true,
+            "show_help": false,
             "help_text": "Help",
             "help_text_link": "",
             "show_language_currency": true,
@@ -302,7 +303,7 @@
       "settings": {
         "container": "1370",
         "padding_full_width": 0,
-        "header_navigation_bg": "#161880",
+        "header_navigation_bg": "#67eba6",
         "header_navigation_bg_gradient": "",
         "header_navigation_border_bottom": "box_shadow",
         "header_navigation_border_bottom_color": "#000000",
@@ -328,7 +329,8 @@
         "550fbd21-75fb-4051-9dee-77d91b5239f0": {
           "type": "logo",
           "settings": {
-            "logo_width_mobile": 65,
+            "logo_mobile": "{{ shop.brand.logo }}",
+            "logo_width_mobile": 100,
             "logo_text": "",
             "logo_font_size": 20,
             "logo_font_weight": "900",
@@ -346,7 +348,7 @@
         "633f9dae-3f65-4bda-9ca8-9d3e231aaf9d": {
           "type": "cart",
           "settings": {
-            "icon": "2",
+            "icon": "4",
             "color": "#232323",
             "color_bubble": "#ffffff",
             "bg_bubble": "#232323"
