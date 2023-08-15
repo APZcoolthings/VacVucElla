@@ -80,7 +80,7 @@
         "sections--14682829619277__f32db78d-5bbc-484d-b86f-faab3cc4c860-1680781887a7430e79-1": {
           "type": "main_menu",
           "settings": {
-            "menu": "main-menu",
+            "menu": "categorias-nuevas",
             "menu_top_spacing": 14,
             "menu_bottom_spacing": 14,
             "grid_gap_menu_item": 12,
